@@ -2,28 +2,26 @@ from setuptools import setup, find_packages
 
 setup(
     name="edgebridge",
-    version="0.3.0",
-    author="Aarav Mehta",
-    author_email="",
-    description="Bridge ML models to lightweight edge-ready formats with quantization, pruning, distillation, and benchmarking",
-    long_description=open("README.md", "r", encoding="utf-8").read(),
+    version="0.1.0",
+    author="Your Name",
+    author_email="youremail@example.com",
+    description="Edgebridge is a versatile Python library offering AI, ML, and edge computing utilities, streamlining tasks like model handling, data processing, deployment, and automation.",
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/AaravMehta-07/edgebridge",
-    packages=find_packages(),
-    install_requires=[
-        "onnxruntime",
-        "torch",
-        "torchvision",
-        "numpy",
+    url="https://github.com/<your-username>/EdgeBridge",
+    packages=find_packages(include=["edgebridge", "edgebridge.*"]) + [
+        "utils", "core", "optimizer", "converters", "cli", "runners"
     ],
-    extras_require={
-        "tflite": ["tensorflow", "onnx", "onnx-tf"],
-        "gui": ["pyqt6", "pyqtgraph"]
-    },
+    python_requires=">=3.8",
+    install_requires=[
+        "numpy",
+        "pandas",
+        # add any other dependencies
+    ],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires=">=3.8",
 )
+
