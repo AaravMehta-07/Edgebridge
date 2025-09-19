@@ -1,0 +1,8 @@
+torch
+tensorflow
+onnx
+onnxruntime
+numpy
+PyQt6
+customtkinter
+click

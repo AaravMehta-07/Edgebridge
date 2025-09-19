@@ -1,0 +1,8 @@
+pyproject.toml
+edgebridge.egg-info/PKG-INFO
+edgebridge.egg-info/SOURCES.txt
+edgebridge.egg-info/dependency_links.txt
+edgebridge.egg-info/requires.txt
+edgebridge.egg-info/top_level.txt
+gui/__init__.py
+gui/app.py

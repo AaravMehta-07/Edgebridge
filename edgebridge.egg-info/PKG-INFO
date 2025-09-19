@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: edgebridge
+Version: 0.1.0
+Summary: EdgeBridge: Lightweight AI Model Conversion, Quantization, Pruning & Deployment Toolkit
+Author-email: Aarav Mehta <your_email@example.com>
+License: MIT
+Project-URL: Homepage, https://github.com/AaravMehta-07/edgebridge
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: tensorflow
+Requires-Dist: onnx
+Requires-Dist: onnxruntime
+Requires-Dist: numpy
+Requires-Dist: PyQt6
+Requires-Dist: customtkinter
+Requires-Dist: click
