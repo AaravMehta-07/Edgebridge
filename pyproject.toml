@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "edgebridge"
+version = "0.1.0"
+description = "EdgeBridge: Lightweight AI Model Conversion, Quantization, Pruning & Deployment Toolkit"
+authors = [
+    { name="Aarav Mehta", email="your_email@example.com" }
+]
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = [
+    "torch",
+    "tensorflow",
+    "onnx",
+    "onnxruntime",
+    
+    "numpy",
+    "PyQt6",
+    "customtkinter",
+    "click",
+]
+
+[project.urls]
+Homepage = "https://github.com/AaravMehta-07/edgebridge"
